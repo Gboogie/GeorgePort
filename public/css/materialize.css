@@ -3,8 +3,22 @@
  * Copyright 2014-2015 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
+
+.fa-facebook-f:before, .fa-facebook:before {
+  padding-right: 20px;
+}
+
+.fa-twitter:before {
+  padding-right: 20px;
+}
+
+.fa-linkedin:before {
+  padding-right: 20px;
+}
+
 .logoz {
   display: inline-flex;
+  font-size: 1.75em;
 }
 
 nav.none {
