@@ -6,6 +6,75 @@
  * Made By MaterializeCSS.com
  */
 
+ .row .col.s1 {
+     width: 33%;
+     margin-left: auto;
+     left: auto;
+     right: auto;
+ }
+
+.btn-large waves-effect waves-light teal lighten-1{
+  margin-right: 13px;
+}
+
+div.row.center{
+  margin-top: -25px;
+}
+
+
+.erick{
+  margin-top: 130px;
+}
+ .fa-github:before {
+     content: "\f09b";
+     margin-right: 13px;
+ }
+
+
+ .teal.lighten-1 {
+     background-color: white !important;
+ }
+
+ .btn-large {
+     color: black;
+     background-color: #26a69a;
+     text-align: center;
+     letter-spacing: .5px;
+     transition: .2s ease-out;
+     cursor: pointer;
+     text-transform: initial;
+ }
+
+
+ .teal-text.text-lighten-2 {
+    color: #fff !important;
+}
+
+ .parallax-container {
+   background: linear-gradient(
+     rgba(0,0,0,.35),
+     rgba(0,0,0,0.35)
+     )
+ }
+
+ .fa-facebook-f:before, .fa-facebook:before {
+   padding-right: 20px;
+ }
+
+ .fa-twitter:before {
+   padding-right: 20px;
+ }
+
+ .fa-linkedin:before {
+   padding-right: 20px;
+ }
+
+ .logoz {
+   display: inline-flex;
+   font-size: 1.75em;
+ }
+
+
 nav ul a,
 nav .brand-logo {
   color: white;
