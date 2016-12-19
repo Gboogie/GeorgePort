@@ -6,8 +6,44 @@
  * Made By MaterializeCSS.com
  */
 
- .row .col.s1 {
-     width: 33%;
+ h3.headerz{
+   color: black !important;
+ }
+.blog{
+  color: white;
+  text-align: center;
+  margin-top: 250px;
+}
+ .card-panel {
+     transition: box-shadow .25s;
+     padding: 20px;
+     margin: 0.5rem 0 1rem 0;
+     border-radius: 2px;
+     background-color: none;
+     text-align: center;
+
+ }
+
+
+
+
+span.white-text{
+  font-size: 50px;
+  text-align: center;
+}
+ h3.headerz{
+   color: white;
+ }
+
+.parallax.background{
+  margin-top: 145px;
+}
+.headerz{
+  text-align: center;
+}
+
+ .row .col.s12 {
+     width: 100%;
      margin-left: auto;
      left: auto;
      right: auto;
@@ -85,10 +121,10 @@ p {
 }
 
 .button-collapse {
-  color: #26a69a;
+  color: white;
 }
 
-.parallax-container {
+.home {
   min-height: 726px;
   line-height: 0;
   height: auto;
@@ -98,13 +134,27 @@ p {
     width: 100%;
   }
 
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width : 415px) {
   .parallax-container .section {
-    position: absolute;
-    top: 40%;
+    top: 20%;
   }
   #index-banner .section {
     top: 10%;
+  }
+  .row .col.s6 {
+    width: 100%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+  #nav-mobile {
+    background-color: none !important;
+  }
+  .home {
+    min-height: 581px;
+  }
+  .blog {
+
   }
 }
 
@@ -123,4 +173,9 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+.parallax img {
+  left:50%!important;
+  width:100%!important;
 }
