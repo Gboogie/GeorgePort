@@ -1,5 +1,4 @@
 require 'sinatra'
-
 get '/' do
-  erb :index
+  File.read(File.join('public', 'views', 'index.erb'))
 end
